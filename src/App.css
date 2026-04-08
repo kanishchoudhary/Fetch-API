@@ -1,0 +1,90 @@
+.card-link{
+  text-decoration: none;
+  font-size: 20px;
+  float: right;
+  margin-right: 200px;
+  margin-top: -50px;
+}
+
+.adduser-link{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button{
+  float: right;
+  margin-top: -110px;
+  margin-right: -20px;
+  width: 20px;
+}
+
+.button1{
+  float: right;
+  margin-top: -75px;
+  margin-right: -20px; 
+  width: 20px;
+}
+
+
+.top-right-popup-content {
+    position: fixed ;
+    margin: 0 ;
+    transform: none ;
+    width: auto;
+    animation: slideIn 0.5s ease;
+}
+
+.popup-box {
+    margin-top: -350px;
+    margin-left: 1200px;
+    /* background: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-left: 5px solid #52c41a;
+    font-weight: 500; */
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.submit-btn:disabled {
+    filter: blur(1px);
+}
+
+.popup-box {
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-left: 5px solid #52c41a;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background: #52c41a;
+    width: 100%;
+    animation: loadBar 1.5s linear forwards;
+}
+
+@keyframes loadBar {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
